@@ -1,0 +1,377 @@
+/* @override 
+	http://book.aether9.org/css/aether.css */
+
+
+/* @group RESET */
+
+/*
+based on Yahoo CSS reset version: 2.7.0
+Code licensed under the BSD License:
+http://developer.yahoo.net/yui/license.txt
+*/
+html{color:#141654;background:#fff;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var,optgroup{font-style:inherit;font-weight:inherit;}del,ins{text-decoration:none;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:baseline;}sub{vertical-align:baseline;}legend{color:#141654;}input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;}input,button,textarea,select{font-size:100%;}
+
+em {font-style: italic;}
+strong {font-weight: bold;}
+
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+
+/* remember to define focus styles! */
+.cbox :focus {
+	outline: 0;
+/*	border: 1px dotted #141654;*/
+/*	display: block;*/
+/*	box-shadow: 0px 0px 10px #141654;*/
+}
+
+/* Contain floats: h5bp.com/q */
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+
+/* @end */
+
+
+/* @group Basics */
+
+@font-face {
+    font-family: 'karmillaregular';
+    src: url('../fonts/Karmilla-v-008/karmilla-regular-008-webfont.eot');
+    src: url('../fonts/Karmilla-v-008/karmilla-regular-008-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Karmilla-v-008/karmilla-regular-008-webfont.woff') format('woff'),
+         url('../fonts/Karmilla-v-008/karmilla-regular-008-webfont.ttf') format('truetype'),
+         url('../fonts/Karmilla-v-008/karmilla-regular-008-webfont.svg#karmillaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'karmillabold';
+    src: url('../fonts/Karmilla-v-008/karmilla-bold-008-webfont.eot');
+    src: url('../fonts/Karmilla-v-008/karmilla-bold-008-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Karmilla-v-008/karmilla-bold-008-webfont.woff') format('woff'),
+         url('../fonts/Karmilla-v-008/karmilla-bold-008-webfont.ttf') format('truetype'),
+         url('../fonts/Karmilla-v-008/karmilla-bold-008-webfont.svg#karlamillabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/******************/
+
+/** { padding: 0; margin: 0; }*/
+
+/* @group Typography */
+
+body {
+	color: #141654;
+	background-color: #fff;
+	font: 100% karmillaregular, Karla, "Helvetica Neue", Arial, Helvetica, Verdana, sans-serif;
+	
+	background: #fff url('../img/cover/aether9-cover.jpg') no-repeat fixed -30px bottom;
+	background-size: auto 100%;
+	
+	}
+
+h1,h2,h3,h4,h5,h6,h7,
+b, strong, .bold {
+	font-family: karmillabold, Karla, "Helvetica Neue", Arial, Helvetica, Verdana, sans-serif;
+	font-weight: normal;
+}
+
+p {
+	line-height: 1.4em;
+	word-wrap: break-word;
+	margin: 1em 0em;
+}
+
+/* @end */
+		
+h1 {
+	font-size: 150%;
+}
+
+h2 {
+	font-size: 150%;
+}
+
+h3 { 
+	font-size:1.1em;
+}
+
+h2 a, h3 a {
+	text-decoration:none;
+}
+h2 a:hover, 
+h3 a:hover {
+	text-decoration:underline;
+}
+
+a {
+	color: #141654;
+}
+a:hover {
+	color: #fff;
+	background: #141654;
+}
+a.unstyled {
+	text-decoration: none;
+}
+
+.smaller {
+	font-size: 95%;
+}
+
+.hidden {display: none;}
+
+/* These selection declarations have to be separate.
+   No text-shadow: twitter.com/miketaylr/status/12228805301 
+   Also: hot pink. */
+::-moz-selection{
+	color: #fff; 
+	text-shadow: none;
+	background: #141654;
+}
+::selection { 
+	background:#141654; 
+	color:#fff; 
+	text-shadow: none; } 
+
+/* @end */
+
+/* @group Menu */
+
+.main-menu {
+	position: fixed;
+/*	border: 2px solid #ccc;*/
+	top:  1em;
+	right: 1em;
+	background: #fff;
+	padding: 0.5em 0.7em;
+	opacity: 0.8;
+	z-index: 20;
+}
+.main-menu a {
+	color: #7d7fb8;
+	text-decoration: none;
+	padding: 0.3em 0.5em;
+/*	border-radius: 6px;*/
+	display: block;
+	border: 2px solid #e9e9f2;
+/*	box-shadow: inset 0px 0px 10px #ccc;*/
+	background-color: #e9e9f2;
+}
+.main-menu li {
+	margin: 0.3em 0;
+}
+
+.main-menu:hover {
+	opacity: 1;
+}
+.main-menu a:hover {
+/*	opacity: 1;*/
+	color: #141654;
+	border-color: #141654;
+	background: #fff;
+/*	text-decoration: underline;*/
+}
+
+/* @end */
+
+.content {
+	background: #fff;
+	margin: 0 auto;
+	max-width: 62em;
+	width: 80%;
+	border: 1px solid #fff;
+}
+
+.header,
+.section,
+.footer {
+	clear: left;
+	margin: 2em 2em 2em 2em;
+}
+
+.header {
+}
+
+.section {
+
+}
+
+.footer {
+	border-top: 2px solid #141654;
+}
+
+.subtext {
+	margin: 0 0 0 1em;
+	font-size: 96%;
+}
+
+.small-list {
+	margin: 1.5em 0 0 0;
+}
+
+.small-list li {
+	margin: 0.3em 0em;
+}
+
+.subtext .small-list {
+	margin-top: 1em;
+}
+
+.thight-spacing {
+	margin: 1em 0 1em 1em;
+}
+ 
+.thight-spacing p {
+	margin: 0.3em 0;
+	line-height: 1.2em;
+}
+
+.section h2 {
+	padding-bottom: 0.2em;
+	border-bottom: 2px solid #141654;
+/*	float: left;*/
+}
+
+.section .h3 {
+	margin: 0.7em 0;
+}
+
+.subtext h3 {
+	padding-bottom: 0.2em;
+	border-bottom: 2px solid #141654;
+/*	float: left;*/
+}
+
+/* Contain floats: h5bp.com/q */
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+
+
+.main-title {
+	font-size: 200%;
+}
+
+
+.product-shot {
+	float: right;
+	margin: 1.2em 0 1em 1.5em;
+	width: 50%;
+	max-width: 400px;
+	border: 1px solid #141654;
+}
+
+.text-quote-section {
+	float: left;
+	clear: left;
+	width: 100%;
+	margin: 0.2em 0;
+}
+
+.text-quote-link .title {
+	margin-bottom: 0;
+}
+
+.imgbox img,
+.product-shot img,
+.text-quote-img img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.text-quote-img {
+	margin: 1.3em 0;
+	padding: 0;
+	border: 2px solid #595b90;
+	background-color: #e2e3f1;
+	
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.text-quote-img img {
+	width: 100%;
+	padding: 0em 0;
+	margin: 0;
+	opacity: 0.8;
+	display: block;
+}
+.text-quote-img:hover {
+	border: 2px solid #141654;
+	box-shadow: 0 0 16px rgba(20, 21, 84, 0.6);
+}
+.text-quote-img:hover img {
+/*	opacity: 1;*/
+}
+
+.img-gallery {
+	width: 100%;
+	margin: 1em 0;
+}
+
+.img-gallery .item {
+	width: 25%;
+	min-width: 100px;
+	max-width: 160px;
+	margin: 0.5em 1em 0.5em 0;
+	float: left;
+}
+
+.img-gallery img {
+	width: 100%;
+	display: block;
+}
+
+.margin-bottom {
+	margin-bottom: 1.6em;
+}
+
+/* @group Media Queries */
+
+/* Medium and large screens ----------- */
+@media only screen 
+and (min-width : 750px) {
+	.text-quote-img {
+		width: 48%;
+		float: left;
+		clear: left;
+	}
+	
+	.text-quote-link {
+		width: 48%;
+		float: right;
+	}
+	
+	.two-column {
+		-moz-column-count: 2;
+		-webkit-column-count: 2;
+		column-count: 2;
+		
+		-moz-column-gap: 1.4em;
+		-webkit-column-gap: 1.4em;
+		column-gap: 1.4em;
+		
+	/*	-moz-column-rule: 1px solid #777; 
+		-webkit-column-rule: 1px solid #777; 
+		column-rule: 1px solid #777; */
+	}
+}
+
+/* @end */
+
+/* @group ColorBox */
+
+#colorbox,#cboxOverlay,#cboxWrapper{position:absolute;top:0;left:0;z-index:9999;overflow:hidden}#cboxOverlay{position:fixed;width:100%;height:100%}#cboxMiddleLeft,#cboxBottomLeft{clear:left}#cboxContent{position:relative}#cboxLoadedContent{overflow:auto}#cboxTitle{margin:0}#cboxLoadingOverlay,#cboxLoadingGraphic{position:absolute;top:0;left:0;width:100%}#cboxPrevious,#cboxNext,#cboxClose,#cboxSlideshow{cursor:pointer}.cboxPhoto{float:left;margin:auto;border:0;display:block}.cboxIframe{width:100%;height:100%;display:block;border:0}#cboxOverlay{background:#fff}#cboxContent{margin-top:32px;overflow:visible}.cboxIframe{background:#fff}#cboxError{padding:50px;border:1px solid #ccc}#cboxLoadedContent{background:#000;padding:1px}#cboxLoadingGraphic{background:url('../img/colorbox/loading.gif') no-repeat center center}#cboxLoadingOverlay{background:#000}#cboxTitle{position:absolute;top:-22px;left:0;color:#000}#cboxCurrent{position:absolute;top:-22px;right:205px;text-indent:-9999px}#cboxSlideshow,#cboxPrevious,#cboxNext,#cboxClose{text-indent:-9999px;width:20px;height:20px;position:absolute;top:-20px;background:url('../img/colorbox/controls.png') no-repeat 0 0}#cboxPrevious{background-position:0 0;right:44px}#cboxPrevious:hover{background-position:0 -25px}#cboxNext{background-position:-25px 0;right:22px}#cboxNext:hover{background-position:-25px -25px}#cboxClose{background-position:-50px 0;right:0}#cboxClose:hover{background-position:-50px -25px}.cboxSlideshow_on #cboxPrevious,.cboxSlideshow_off #cboxPrevious{right:66px}.cboxSlideshow_on #cboxSlideshow{background-position:-75px -25px;right:44px}.cboxSlideshow_on #cboxSlideshow:hover{background-position:-100px -25px}.cboxSlideshow_off #cboxSlideshow{background-position:-100px 0;right:44px}.cboxSlideshow_off #cboxSlideshow:hover{background-position:-75px -25px}
+
+/* @end */
+
+/* ----- END -----*/
