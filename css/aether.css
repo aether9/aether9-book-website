@@ -66,10 +66,10 @@ strong {font-weight: bold;}
 
 body {
 	color: #141654;
-	background-color: #fff;
+	background-color: #141654;
 	font: 100% karmillaregular, Karla, "Helvetica Neue", Arial, Helvetica, Verdana, sans-serif;
 	
-	background: #fff url('../img/cover/aether9-cover.jpg') no-repeat fixed -30px bottom;
+	background: #141654 url('../img/cover/aether9-cover-low.jpg') no-repeat fixed -30px bottom;
 	background-size: auto 100%;
 	
 	}
@@ -316,6 +316,7 @@ a.unstyled {
 .img-gallery {
 	width: 100%;
 	margin: 1em 0;
+	float: left;
 }
 
 .img-gallery .item {

@@ -12,7 +12,7 @@
  	<link rel="stylesheet" href="css/aether.css" type="text/css" media="screen" />
  	<link rel="icon" type="image/png" href="favicon.png" />
  	
- 	<script src="js/libs/modernizr.custom.14446.min.js" ></script> 
+ 	<script src="http://d2kkystn1l2cj2.cloudfront.net/js/libs/modernizr.custom.14446.min.js" ></script> 
  
 </head>
 <body>
@@ -83,7 +83,7 @@
 		<p>a visualization of the worldwide dissemination of the book</p>
 		
 		<div class="distribution-map cbox imgbox">
-		<a href="img/distrib/book_web_sketch05.png"><img src="img/distrib/book_web_sketch05.png" alt="" /></a>
+		<a href="http://d2kkystn1l2cj2.cloudfront.net/img/distrib/book_web_sketch05.png"><img src="img/distrib/book_web_sketch05.png" alt="" /></a>
 		</div>
 		
 	</section>
@@ -94,25 +94,52 @@
 	
 		<div class="img-gallery cbox">
 			<div class="item">
-				<a href="img/distrib/aether9_post_1web.jpg" title="Brussels: packaging the books (photo: Boris Kish)"><img src="img/distrib/squares/bxl-squared.jpg" alt="" class="thumb" /></a>
+				<a href="http://d2kkystn1l2cj2.cloudfront.net/img/distrib/aether9_post_1web.jpg" title="Brussels: packaging the books (photo: Boris Kish)"><img src="http://d2kkystn1l2cj2.cloudfront.net/img/distrib/squares/bxl-squared.jpg" alt="" class="thumb" /></a>
 			</div>
 			
 			<div class="item">
-				<a href="img/distrib/mkk-finland-web.jpg" title="Arrival in Finland (photo: Mari Keski-Korsu)"><img src="img/distrib/squares/finland-squared.jpg" alt="" class="thumb" /></a>
+				<a href="http://d2kkystn1l2cj2.cloudfront.net/img/distrib/mkk-finland-web.jpg" title="Arrival in Finland (photo: Mari Keski-Korsu)"><img src="http://d2kkystn1l2cj2.cloudfront.net/img/distrib/squares/finland-squared.jpg" alt="" class="thumb" /></a>
 			</div>
 			
 			<div class="item">
-				<a href="img/distrib/iran_aether9-03.jpg" title="Arrival in Tehran (photo: Sohrab Kashani)"><img src="img/distrib/squares/iran-squared.jpg" alt="" class="thumb" /></a>
+				<a href="http://d2kkystn1l2cj2.cloudfront.net/img/distrib/iran_aether9-03.jpg" title="Arrival in Tehran (photo: Sohrab Kashani)"><img src="http://d2kkystn1l2cj2.cloudfront.net/img/distrib/squares/iran-squared.jpg" alt="" class="thumb" /></a>
 			</div>
 			
 			<div class="item">
-				<a href="img/distrib/aether9_books-paris.jpg" title="Arrival in Paris (photo: Paula Vélez)"><img src="img/distrib/squares/paris-squared.jpg" alt="" class="thumb" /></a>
+				<a href="http://d2kkystn1l2cj2.cloudfront.net/img/distrib/aether9_books-paris.jpg" title="Arrival in Paris (photo: Paula Vélez)"><img src="http://d2kkystn1l2cj2.cloudfront.net/img/distrib/squares/paris-squared.jpg" alt="" class="thumb" /></a>
 			</div>
 			
 			<div class="item">
-				<a href="img/distrib/aether9-0038-sattal.jpg" title="Arrival at Sattal Estate, Uttarakhand, India (photo: Shankar Barua)"><img src="img/distrib/squares/sattal-squared.jpg" alt="" class="thumb" /></a>
+				<a href="http://d2kkystn1l2cj2.cloudfront.net/img/distrib/aether9-0038-sattal.jpg" title="Arrival at Sattal Estate, Uttarakhand, India (photo: Shankar Barua)"><img src="http://d2kkystn1l2cj2.cloudfront.net/img/distrib/squares/sattal-squared.jpg" alt="" class="thumb" /></a>
 			</div>
+			
+			<div class="item">
+				<a href="http://d2kkystn1l2cj2.cloudfront.net/img/products/book-00.jpg" ><img src="http://d2kkystn1l2cj2.cloudfront.net/img/products/square/book-00.jpg" alt="" class="thumb" /></a>
+			</div>
+			
+			<div class="item">
+				<a href="http://d2kkystn1l2cj2.cloudfront.net/img/products/book-01.jpg" ><img src="http://d2kkystn1l2cj2.cloudfront.net/img/products/square/book-01.jpg" alt="" class="thumb" /></a>
+			</div>
+			
+			<div class="item">
+				<a href="http://d2kkystn1l2cj2.cloudfront.net/img/products/book-02.jpg" ><img src="http://d2kkystn1l2cj2.cloudfront.net/img/products/square/book-02.jpg" alt="" class="thumb" /></a>
+			</div>
+			
+			<div class="item">
+				<a href="http://d2kkystn1l2cj2.cloudfront.net/img/products/book-03.jpg" ><img src="http://d2kkystn1l2cj2.cloudfront.net/img/products/square/book-03.jpg" alt="" class="thumb" /></a>
+			</div>
+			
+			<div class="item">
+				<a href="http://d2kkystn1l2cj2.cloudfront.net/img/products/book-04.jpg" ><img src="http://d2kkystn1l2cj2.cloudfront.net/img/products/square/book-04.jpg" alt="" class="thumb" /></a>
+			</div>
+						
+			<div class="item">
+				<a href="http://d2kkystn1l2cj2.cloudfront.net/img/products/book-05.jpg" ><img src="http://d2kkystn1l2cj2.cloudfront.net/img/products/square/book-05.jpg" alt="" class="thumb" /></a>
+			</div>
+			
 		</div>
+		
+		<p>Need the high resolution files? <a href="https://www.dropbox.com/sh/mqwl2lri62vc1ds/Ua6Yh1rkN5">Get them all here</a>.
 		
 	</section>
 	
@@ -313,31 +340,39 @@
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/libs/jquery-1.8.2.min.js"><\/script>')</script>
-<script defer src="js/mylibs/jquery.easing.1.3.min.js"></script>
+<!--<script defer src="js/mylibs/jquery.easing.1.3.min.js"></script>-->
 
-<script defer src="js/mylibs/jquery.colorbox.min.js"></script>
+<script defer src="http://d2kkystn1l2cj2.cloudfront.net/js/mylibs/jquery.colorbox.min.js"></script>
 
 <script>
-            $(document).ready(function(){
-              			
-              			$('#main-menu a').bind('click',function(event){
-              			    var $anchor = $(this);
-              			    $('html, body').stop().animate({
-              			        scrollTop: $($anchor.attr('href')).offset().top
-              			    }, 500);
-              			    event.preventDefault();
-              			});
-              			
-              			$(".cbox a").colorbox({rel:'group1',opacity:"0.85", width:"90%", height:"85%"});
-              			$(".callbacks").colorbox({
-              				onOpen:function(){ alert('onOpen: colorbox is about to open'); },
-              				onLoad:function(){ alert('onLoad: colorbox has started to load the targeted content'); },
-              				onComplete:function(){ alert('onComplete: colorbox has displayed the loaded content'); },
-              				onCleanup:function(){ alert('onCleanup: colorbox has begun the close process'); },
-              				onClosed:function(){ alert('onClosed: colorbox has completely closed'); }
-              			});
-            
-              		});
+  $(document).ready(function(){
+  
+  				// code pour liens sortants:
+  				  $("a[href^=http]").each(
+  				   function(){ 
+  				      if(this.href.indexOf(location.hostname) == -1) {
+  				      $(this).attr('target', '_blank');
+  				    	}
+  				  	});
+    			
+    			$('#main-menu a').bind('click',function(event){
+    			    var $anchor = $(this);
+    			    $('html, body').stop().animate({
+    			        scrollTop: $($anchor.attr('href')).offset().top
+    			    }, 500);
+    			    event.preventDefault();
+    			});
+    			
+    			$(".cbox a").colorbox({rel:'group1',opacity:"0.85", width:"90%", height:"85%"});
+    			$(".callbacks").colorbox({
+    				onOpen:function(){ alert('onOpen: colorbox is about to open'); },
+    				onLoad:function(){ alert('onLoad: colorbox has started to load the targeted content'); },
+    				onComplete:function(){ alert('onComplete: colorbox has displayed the loaded content'); },
+    				onCleanup:function(){ alert('onCleanup: colorbox has begun the close process'); },
+    				onClosed:function(){ alert('onClosed: colorbox has completely closed'); }
+    			});
+  
+   });
 </script>
 
 </body> 
