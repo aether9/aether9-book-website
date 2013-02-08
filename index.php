@@ -26,10 +26,10 @@
 		<li><a href="#media">media</a></li>
 		
 		<li><a href="#excerpt">excerpts</a></li>
+				
+		<li><a href="#colophon">colophon</a></li>
 		
 		<li><a href="#authors">authors</a></li>
-		
-		<li><a href="#colophon">colophon</a></li>
 		
 		<li><a href="#get-the-book">get the book!</a></li>
 		
@@ -160,8 +160,8 @@
 				<p class="title"><strong>On aether9 - by Judy Nylon</strong></p>
 				<ul class="action-links">
 					<li class="hidden">&rarr; <a href="#">read online</a></li>
-					<li>&rarr; <a href="https://dl.dropbox.com/s/9mpaqo3l06njcmm/aether9_essay_by_Judy-Nylon.pdf?dl=1">download <span class="smaller">PDF</span></a></li> 
-					<li>&rarr; <a href="https://dl.dropbox.com/s/egjodbdzrthuyse/aether9_essay_by_Judy-Nylon.epub?dl=1">download epub</a></li>
+					<li>&rarr; <a href="https://dl.dropbox.com/s/lr920utcc9hqmfd/aether9_essay_by_Judy-Nylon.pdf?dl=1">download <span class="smaller">PDF</span></a></li> 
+					<li>&rarr; <a href="https://dl.dropbox.com/s/nue3c2ebg6cfnua/aether9_essay_by_Judy-Nylon.epub?dl=1">download epub</a></li>
 				</ul>
 			</div>
 		
@@ -179,15 +179,15 @@
 				<p class="title"><strong>Designing the Aether9 book - Interview with Open Source Publishing</strong></p>
 				<ul class="action-links">
 					<li class="hidden">&rarr; <a href="#">read online</a></li>
-					<li class="hidden">&rarr; <a href="#">pdf</a></li>
-					<li class="hidden">&rarr; <a href="#">epub</a></li>
+					<li>&rarr; <a href="https://dl.dropbox.com/s/7qjtlpuceig26hg/aether9_interview_osp_EN.pdf?dl=1">download <span class="smaller">PDF</span></a></li>
+					<li>&rarr; <a href="https://dl.dropbox.com/s/tpg1cxdxk2pxj2x/aether9_interview_osp_EN.epub?dl=1">download epub</a></li>
 				</ul>
 				
 				<p class="title"><strong>En français: Interview avec Open Source Publishing</strong></p>
 				<ul class="action-links">
 					<li class="hidden">&rarr; <a href="#">lire en ligne</a></li>
-					<li>&rarr; <a href="https://dl.dropbox.com/s/xt57foltqic7nvv/aether9_interview_osp_FR.pdf?dl=1">télécharger au format <span class="smaller">PDF</span></a></li>
-					<li>&rarr; <a href="https://dl.dropbox.com/s/bcxyohkdhjtf1rp/aether9_interview_osp_FR.epub?dl=1">télécharger au format epub</a></li>
+					<li>&rarr; <a href="https://dl.dropbox.com/s/yja67pasv5bok68/aether9_interview_osp_FR.pdf?dl=1">télécharger au format <span class="smaller">PDF</span></a></li>
+					<li>&rarr; <a href="https://dl.dropbox.com/s/1f2cn3t1i9fas0m/aether9_interview_osp_FR.epub?dl=1">télécharger au format epub</a></li>
 				</ul>
 			</div>
 		
