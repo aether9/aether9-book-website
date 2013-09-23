@@ -309,13 +309,17 @@
 		
 		<h3 class="h3">ordering</h3>
 		
-		<p>Instructions for ordering (coming soon)</p>
+		<p>Available from <a href="http://www.mottodistribution.com/shop/aether9.html">Motto Distribution</a>, Berlin (15 EUR plus shipping).</p>
 	
 		<h3 class="h3">stores and libraries</h3>
 		
 		
 		<div class="block-item">
-			<p class="name">Franklin Furnace Archives, New York</p>
+			<p class="name"><a href="http://www.franklinfurnace.org/">Franklin Furnace Archives</a>, New York</p>
+		</div>
+		
+		<div class="block-item">
+			<p class="name"><a href="http://www.mottodistribution.com/site/?page_id=1020">MOTTO BERLIN</a>, Berlin</p>
 		</div>
 		
 		<div class="block-item">
